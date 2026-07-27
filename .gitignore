@@ -1,20 +1,42 @@
-# Model files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ML / PyTorch Model Checkpoints & Pre-trained Task Files
 *.pth
 *.pt
+*.bin
 *.ckpt
+*.h5
+*.onnx
 *.safetensors
+*.task
 
-# Virtual environments
-venv/
-.venv/
+# Logs and temporary files
+*.log
+nohup.out
 
-# Python
-__pycache__/
-*.pyc
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
 
-# Environment
-.env
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Dataset
-data/
-dataset/
+# OS generated files
+.DS_Store
+Thumbs.db
