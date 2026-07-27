@@ -1,2 +1,4 @@
 flask_app/.env
 .env
+aesthetic_scorer_checkpoint.pth
+best_model.pth
