@@ -1,5 +1,20 @@
-flask_app/.env
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
 .env
-aesthetic_scorer_checkpoint.pth
-best_model.pth
-FinalModel/best_model1.pth
+
+# Dataset
+data/
+dataset/
